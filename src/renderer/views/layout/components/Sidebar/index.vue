@@ -20,7 +20,9 @@ import SidebarItem from './SidebarItem'
 import ScrollBar from '@/components/ScrollBar'
 
 export default {
-  components: { SidebarItem, ScrollBar },
+  components: {
+    SidebarItem, ScrollBar
+  },
   computed: {
     ...mapGetters([
       'sidebar'

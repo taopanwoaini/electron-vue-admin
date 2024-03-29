@@ -1,10 +1,19 @@
 <template>
   <div class="app-wrapper" :class="classObj">
+
+    <!--菜单-->
     <sidebar class="sidebar-container"></sidebar>
+
+    <!--右侧内容-->
     <div class="main-container">
+
+      <!--右侧上方导航栏-->
       <navbar></navbar>
+
+      <!--右侧下方内容主页面内容-->
       <app-main></app-main>
     </div>
+
   </div>
 </template>
 
